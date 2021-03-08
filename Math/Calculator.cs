@@ -10,6 +10,8 @@ namespace Math
         {
             int result = sayi1 + sayi2;
             Console.WriteLine("Result = " + result);
+
+
         }
     }
 }

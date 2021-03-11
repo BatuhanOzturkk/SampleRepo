@@ -9,6 +9,8 @@ namespace GenericsIntro
         {
             MyList<string> names = new MyList<string>();
             names.Add("Batuhan");
+            names.Add("Ali");
+
         }
     }
 }

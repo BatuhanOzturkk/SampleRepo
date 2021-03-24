@@ -4,7 +4,7 @@ using System.Text;
 
 namespace OOP2
 {
-    interface ILoggerService
+    public interface ILoggerService
     {
         void Log();
     }

@@ -20,7 +20,7 @@ namespace OOP2
 
             AppealManager appealManager = new AppealManager();
             appealManager.AppealRequest(personelFinanceCredit, loggerServices);
-            appealManager.AppealRequest(personelFinanceCredit, new SMSLoggerService);
+
 
             List<ICreditManager> credits = new List<ICreditManager>() { personelFinanceCredit };
             //appealManager.BeforeCreditInformation(credits);
